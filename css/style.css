@@ -1,1 +1,49 @@
-# Empty CSS file for your own CSS
+
+/* Colors
+
+Light Blue: #23A6DD;
+Darker Blue: #196D99;
+Gray: #585B5D;
+Silver: #D9D9D9;
+
+*/
+
+body {
+  background-color: #D9D9D9;
+}
+
+.container-fluid{
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #F0F0F0;
+  z-index: 1;
+}
+
+.jumbotron {
+  background-color: #D9D9D9;
+}
+
+#logo {
+  max-height: 100px;
+  padding: 25px;
+}
+
+#jumbo-btn {
+  background-color: #23A6DD;
+  float:right;
+}
+
+#jumbo-btn:hover {
+  background-color: #196D99;
+}
+
+#jumbo-hs {
+  float: left;
+  border: 1px solid #196D99;
+  max-width: 200px;
+  margin: 20px;
+}
+
+.jumbo-text {
+  padding: 20px;
+}
