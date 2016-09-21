@@ -9,7 +9,7 @@ Silver: #D9D9D9;
 */
 
 body {
-  background-color: #D9D9D9;
+  background-color: #196D99;
 }
 
 .container-fluid{
@@ -21,29 +21,74 @@ body {
 
 .jumbotron {
   background-color: #D9D9D9;
+  border: 1px solid #196D99;
 }
 
 #logo {
   max-height: 100px;
-  padding: 25px;
+  padding: 30px;
+  margin-top: -20px;
 }
 
 #jumbo-btn {
-  background-color: #23A6DD;
+  background-color: #196D99;
+  border-radius: 0px;
   float:right;
 }
 
 #jumbo-btn:hover {
-  background-color: #196D99;
+  background-color: #23A6DD;
+  border-radius: 0px;
 }
 
 #jumbo-hs {
   float: left;
   border: 1px solid #196D99;
-  max-width: 200px;
-  margin: 20px;
+  max-width: 220px;
+  padding: 5px;
+  background-color: white;
+  margin: 45px 60px 20px 20px;
 }
 
 .jumbo-text {
   padding: 20px;
+}
+
+.btn-infobox {
+  border: 1px solid #196D99;
+  border-radius: 0px;
+  color: #196D99;
+  margin-top: 20px;
+}
+
+.btn-infobox:hover {
+  border: 1px solid #23A6DD;
+  border-radius: 0px;
+  color: #23A6DD;
+  margin-top: 20px;
+}
+
+.infobox {
+  padding: 20px;
+}
+.infobox-txt {
+  border: 1px solid #196D99;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+body > div > div:nth-child(1) > div > nav {
+  height: 65px;
+}
+
+.navbar-right {
+  margin-top: 5px;
 }
