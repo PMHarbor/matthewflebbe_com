@@ -66,7 +66,15 @@ body {
   border: 1px solid #196D99;
   padding: 5px;
   background-color: white;
-  margin: 0px 60px 20px 60px;
+  margin: 20px 60px 20px 60px;
+}
+
+#jumbo-hs3 {
+  float: left;
+  border: 1px solid #196D99;
+  padding: 5px;
+  background-color: white;
+  margin: 20px 60px 20px 60px;
 }
 
 .jumbo-text {
@@ -256,6 +264,8 @@ body > div > div:nth-child(1) > div > nav {
 
 .edu-h {
   text-align: left;
+  margin-top: 13px;
+  margin-bottom: 12px;
 }
 
 .caa {
@@ -282,7 +292,7 @@ body > div > div:nth-child(1) > div > nav {
 }
 
 .footer-bar {
-  background-color: #23A6DD;
+  background-color: gray;
   border-top: 1px solid black;
 }
 
