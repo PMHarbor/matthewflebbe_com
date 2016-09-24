@@ -75,7 +75,16 @@ body {
   border: 1px solid #196D99;
   background-color: white;
   display: block;
-  margin: 0 auto;
+  margin: 0px 0px 10px 0px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.infobox-txt2 {
+  border: 1px solid #196D99;
+  background-color: white;
+  display: block;
+  margin: 0px 0px -30px 0px;
   padding: 20px;
   text-align: justify;
 }
@@ -89,6 +98,138 @@ body > div > div:nth-child(1) > div > nav {
   height: 65px;
 }
 
-.navbar-right {
-  margin-top: 5px;
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: rgba(248, 248, 248, 1);
+    border-width: 0px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    margin-top: 18px;
+    color: rgba(25, 109, 153, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(35, 166, 221, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #196D99;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #196D99;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #196D99;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #f8f8f8;
+}
+
+.test-images {
+ border-radius: 50%;
+ float: left;
+ margin-right: 10px;
+ width: 100px;
+}
+
+.hr-test {
+  background-color: #196D99;
+  height: 1px;
+  width: 80%;
+}
+
+.job-img {
+  float: right;
+  margin: 0px 15px 0px 0px;
+}
+
+.edu-img {
+  float: right;
+  margin: 10px;
+  width: 100px;
+}
+
+#top-row {
+  margin-top: -20px;
+}
+
+.middle-row {
+  margin-top: 40px;
+}
+
+#left-column {
+  float: left;
+}
+
+#right-column {
+  float: right;
+}
+
+.skills-ul { list-style-type: none;
+  margin-left: -30px;
+}
+
+#skills li {
+	position: relative;
+	margin-bottom: 20px;
+	padding-left: 0px;
+}
+
+.bar_container,
+.bar {
+		position: absolute;
+		left: 0;
+		height: 5px;
+		border-radius: 5px;
+		content: "";
+}
+
+.bar_container {
+		bottom: -8px;
+		width: 100%;
+		background-color: #333;
+		text-align: right;
+}
+
+.bar {
+		top: 0;
+}
+
+.pct {
+		position: absolute;
+		top: -19px;
+		right: 0;
+		opacity: 0;
+		transition: opacity 0.3s linear;
+}
+
+#disclaimer {
+  font-size: 10px;
+  font-weight: light;
+}
+
+.enc {
+  margin-bottom: -20px;
+}
+
+.edu-h {
+  text-align: left;
+}
+
+.caa {
+  margin-top: -50px;
 }
