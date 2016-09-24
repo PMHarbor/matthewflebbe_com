@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville|Sintony';
 
 /* Colors
 
@@ -8,8 +9,18 @@ Silver: #D9D9D9;
 
 */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
 body {
   background-color: #196D99;
+  font-family: 'Sintony', sans-serif;
 }
 
 .container-fluid{
@@ -50,6 +61,14 @@ body {
   margin: 45px 60px 20px 20px;
 }
 
+#jumbo-hs2 {
+  float: left;
+  border: 1px solid #196D99;
+  padding: 5px;
+  background-color: white;
+  margin: 0px 60px 20px 60px;
+}
+
 .jumbo-text {
   padding: 20px;
 }
@@ -71,6 +90,11 @@ body {
 .infobox {
   padding: 20px;
 }
+
+.infobox2 {
+  padding: 0px 20px 0px 20px;
+}
+
 .infobox-txt {
   border: 1px solid #196D99;
   background-color: white;
@@ -226,6 +250,10 @@ body > div > div:nth-child(1) > div > nav {
   margin-bottom: -20px;
 }
 
+.enc2 {
+  margin-bottom: 40px;
+}
+
 .edu-h {
   text-align: left;
 }
@@ -233,3 +261,35 @@ body > div > div:nth-child(1) > div > nav {
 .caa {
   margin-top: -50px;
 }
+
+.socialicons {
+  border: 1px solid #196D99;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.socialtable {
+  margin: 0 auto 10px auto;
+}
+
+.footer-h {
+  color: white;
+}
+
+.footer-right {
+  float: right;
+  width: 120px;
+}
+
+.footer-bar {
+  background-color: #23A6DD;
+  border-top: 1px solid black;
+}
+
+.footer-p{
+  color: white;
+}
+
+body > div > div.container-fluid > div > div.container-fluid.footer-bar {
+  background-color: #23A6DD;
+  border-top: 1px solid black;}
